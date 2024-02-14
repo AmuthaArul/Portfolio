@@ -77,6 +77,25 @@ h2{
         font-size:2vw;  
     }
 }
+@media screen and (max-width:770px){
+    h2{
+        font-size:medium;  
+    }
+    .year{
+        border:none;
+    }
+}
+@media screen and (max-width:500px){
+    .year{
+        display:none; 
+    }
+    .skillBar{
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
 @media screen and (max-width:480px){
     .skillBarText>p{
         font-size:3vw;  
