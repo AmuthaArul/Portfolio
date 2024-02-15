@@ -100,3 +100,10 @@ h3{
         justify-content: center;
     } 
 }
+
+@media screen and (max-width:500px){
+  .workDesc{
+      display:none; 
+  }
+  
+}
