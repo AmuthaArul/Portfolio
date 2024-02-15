@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d8fcfba3.css",
+    "main.css": "/Portfolio/static/css/main.690da362.css",
     "main.js": "/Portfolio/static/js/main.896ca4d7.js",
     "static/media/anna-univ.jpg": "/Portfolio/static/media/anna-univ.dcc16656749797a8b5cc.jpg",
     "static/media/photo.png": "/Portfolio/static/media/photo.66f5d2bd83c8f81f4acc.png",
@@ -8,11 +8,11 @@
     "static/media/linkedIn.png": "/Portfolio/static/media/linkedIn.3348813798ea3084f091.png",
     "static/media/cognizant.png": "/Portfolio/static/media/cognizant.a9fbda70c4e955dd2981.png",
     "index.html": "/Portfolio/index.html",
-    "main.d8fcfba3.css.map": "/Portfolio/static/css/main.d8fcfba3.css.map",
+    "main.690da362.css.map": "/Portfolio/static/css/main.690da362.css.map",
     "main.896ca4d7.js.map": "/Portfolio/static/js/main.896ca4d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8fcfba3.css",
+    "static/css/main.690da362.css",
     "static/js/main.896ca4d7.js"
   ]
 }
