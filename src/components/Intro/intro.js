@@ -10,7 +10,7 @@ const Intro = ()=>{
                    <span className="hello">Hello,</span>
                    <span className="introText">I'm<span className='introName'> Amuthavalli Palani</span> <br/></span>
                    <span className= "introSubText">Graduate Student</span>
-                   <p className='introPara'>Actively seeking 2024 Summer/Fall Internship opportunities.<br/>
+                   <p className='introPara'> 
                    Eager to learn from the best and contribute my skills to your innovative team. <br/>
                    </p>
                 </div>
