@@ -71,11 +71,11 @@ overflow: hidden;
 }
 @media screen and (max-width:500px){
     .introPara{
-        display: none;;
+        display: none;
     }
     .introSubText{
         background:#0dcff2;
-        width:45vw;
+         width:45vw;
     }
     
 }
