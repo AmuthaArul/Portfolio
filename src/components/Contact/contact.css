@@ -2,7 +2,7 @@
 #contact{
     background: rgb(8,8,43);
     background: linear-gradient(90deg, rgba(8,8,43,1) 7%, rgba(0,87,91,1) 100%);
-    
+    font-family: 'Poppins', sans-s;
     min-height: calc(100vh-4rem);
     width: 100vw;
     max-width: 100rem;
@@ -28,6 +28,7 @@
     padding: 1rem;
     font-size: medium;
     font-weight: 300;
+    color:white;
 }
 .contactForm{
     margin:1rem;
@@ -48,9 +49,11 @@
     border: none;
     border-radius: 0.5rem;
     background:rgb(255, 255, 255);
+    font-family: 'Poppins', sans-s;
     
 }
 .submitBtn{
+    font-family: 'Poppins', sans-s;
     background: white;
     border-radius: 3rem;
     margin: 2rem;

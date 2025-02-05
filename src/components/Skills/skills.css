@@ -1,7 +1,7 @@
-#skills{
+#skills{ 
+    font-family: 'Poppins', sans-s;
     background: rgb(8,8,43);
     background: linear-gradient(90deg, rgba(8,8,43,1) 7%, rgba(0,87,91,1) 100%);
-    
     overflow:hidden;
     width:100vw;
     max-width:100rem;
@@ -11,6 +11,7 @@
     justify-content: center;
     text-align:center;
     margin: 0;
+    
 }
 .skillTitle{
 font-size: 3rem;
@@ -27,6 +28,7 @@ color:white;
     font-size:0.9rem;
     max-width:80%;
     padding:0 2rem;
+    color:white;
 }
 .skillBars{
     margin:1.5rem;
@@ -52,6 +54,7 @@ color:white;
     margin: 2rem;
     justify-content: center;
     align-self: center;
+    color:white;
 
 }
 .skillBarImg{
@@ -66,6 +69,7 @@ color:white;
     font-weight: 200;
     letter-spacing:1px;
     padding:2rem;
+    color:white;
 }
 h2{
     font-weight: 600;

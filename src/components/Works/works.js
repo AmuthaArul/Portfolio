@@ -1,8 +1,9 @@
 import React,{ useState } from 'react'
 import './works.css'
+import csueb from '../../images/csueb.png';
 import elixir  from '../../images/elixir.jpg';
 import cognizant from '../../images/cognizant.png';
-import annauniv  from '../../images/anna-univ.jpg';
+
 
 const Works = () =>{
   
@@ -10,25 +11,38 @@ const Works = () =>{
     const [selectedJob, setSelectedJob] = useState(null);
 
     const jobs = [
+      {
+            src: csueb,
+            title: "CSUEB",
+            designation: "Teaching Assistant",
+            responsibilities: "As a Teaching Assistant for the Artificial Intelligence course at California State University East Bay from Aug 2024 to Dec 2024, I assisted in teaching, grading, and publishing materials for the 'AI and Intro to NLP & Deep Learning' course. I also integrated TensorFlow into the curriculum, providing students with hands-on experience in machine learning models.",
+      },
+      {
+        src: csueb,
+        title: "CSUEB",
+        designation: "ASI Student Assistant",
+        responsibilities: "As an ASI Student Assistant at California State University East Bay from June 2024 to December 2024, I developed a PostgreSQL database to manage scholarship applications and designed promotional materials using Figma. Additionally, I implemented a cloud-based filing system with custom Python scripts, streamlining data access for student associations.",
+      },
+      {
+        src: csueb,
+        title: "CSUEB",
+        designation: "Teaching Assistant",
+        responsibilities: "As a Teaching Assistant for the Website Development course at California State University East Bay from January 2024 to May 2024, I assisted in teaching front-end frameworks (React, Angular), responsive design, and full-stack development. I also led lab sessions on reusable web components and guided the integration of APIs, SQL databases, and client-server architecture.",
+      }, 
         {
             src: elixir,
             title: "Elixir",
             designation: "Software Developer",
-            responsibilities: "As a Software Engineer at the Elixir Educational Group in Chennai, India, I led significant initiatives between 2018 and 2021. My role involved spearheading the design and development of user-friendly UI features using React, thereby elevating the responsiveness and accessibility of the web application. I showcased meticulous attention to detail through the revitalization of mock designs and wireframes for landing pages.My dedication to achieving excellence was acknowledged with the prestigious Achievement Award in the 'Go that Extra Mile' category.",
+            responsibilities: "As a Software Engineer at the Elixir Educational Group in Chennai, India, I led significant initiatives between 2018 and 2021. My role involved spearheading the design and development of user-friendly UI features using Django/React, thereby elevating the responsiveness and accessibility of the web application. I showcased meticulous attention to detail through the revitalization of mock designs and wireframes for landing pages.My dedication to achieving excellence was acknowledged with the prestigious Achievement Award in the 'Go that Extra Mile' category.",
           }, 
       {
       src: cognizant, // Assuming you have these images imported correctly
       title: "Cognizant",
       designation: "Programmer Analyst",
       responsibilities: "As a Programmer Analyst at Cognizant Technology Solutions in Chennai, India, during the period from 2016 to 2017, I played a pivotal role in the Medicare and Medicaid Healthcare project. My key achievements include Module Design, Testing and Collaboration, Performance Enhancement.During the Cognizant Technology Solutions Training Program in 2016, I emerged as the Topper of the Batch among 60 trainees, showcasing my dedication to excellence and quick grasp of new concepts.",
-    },
+    }
    
-    {
-        src: annauniv,
-        title: "Anna University",
-        designation: "Student Council Member",
-        responsibilities: "As a dedicated member of the Student Council at RMD Engineering College, Anna University, I actively contributed to the academic environment by mentoring and assisting my peers and junior students in their coursework.  I worked diligently to bridge the gap between students and teachers and also took on the responsibility of organizing a successful symposium, creating an opportunity for students to engage in intellectual discussions, share knowledge, and expand their understanding of various subjects",
-      }
+    
     
   ];
 

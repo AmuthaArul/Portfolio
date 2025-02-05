@@ -1,5 +1,6 @@
 
 #intro{
+font-family: 'Poppins', sans-s;
 height:calc(100vh-4rem);
 width: 100vw;
 max-width: 95rem;
@@ -7,8 +8,10 @@ margin: 0 auto;
 overflow: hidden;   
 
 
+
 }
 .bg{
+    background: #020320;
     position: absolute;
     top: -0.5rem;
     right: 0;  
@@ -26,6 +29,7 @@ overflow: hidden;
     display: flex;
     flex-direction: column; 
     justify-content: center;
+    
    
 }
 .hello{
@@ -40,10 +44,12 @@ overflow: hidden;
     font-size: medium;
     font-weight: 200;
     letter-spacing:1px;
+    color: white;
 }
 .introSubText{
     font-size: 1.75rem;
     font-weight: bold;
+    color: white;
 }
 
 

@@ -11,6 +11,13 @@
     top:0;
     z-index: 3;
     background: #020320;
+    overflow: hidden;
+    overflow-y:scroll;
+    font-family: 'Poppins', sans-s;
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+
 }
 
 .logo{
